@@ -1,0 +1,17 @@
+import os
+
+
+if __name__ == '__main__':
+    print("Welcome to RoboSpeaker 1.1 Created by M TAQI")
+    while True:
+       x =input("Enter what you want to me Speak: ")
+       text = "f{x}"
+     
+       if x == "q":
+         print("how much you fell to yousing this robo")
+         break
+   
+command = f"say{x}"
+os.system(command)
+   
+     
